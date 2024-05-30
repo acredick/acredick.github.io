@@ -1,0 +1,13 @@
+"2nd commit"
+
+"welcome" set up, work on page transitions next.
+
+pages to be set up:
+about
+projects
+skills
+home
+contact
+
+other to-do:
+populate pages with up-to-date info
