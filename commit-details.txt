@@ -1,4 +1,4 @@
-"2nd commit"
+"3rd commit"
 
 "welcome" set up, work on page transitions next.
 
@@ -11,3 +11,5 @@ contact
 
 other to-do:
 populate pages with up-to-date info
+make resizable
+make responsive
