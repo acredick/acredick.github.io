@@ -29,3 +29,18 @@
     font-family: RealityHyper;
     src:url("../assets/Reality Hyper Regular.ttf")
 }
+
+/* Fade-in transition */
+body {
+    animation: fade-in ease .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,6 +1,6 @@
-"3rd commit"
+"welcome page color"
 
-"welcome" set up, work on page transitions next.
+"welcome" page colors set up, continue with page transitions
 
 pages to be set up:
 about

@@ -5,7 +5,7 @@ import "../styles/About.css"
 
 export default function About() {
    return (
-      <section id="about">
+      <section id="about"> 
          <div class="outer-container">
             <div>
                <h1>

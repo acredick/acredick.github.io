@@ -49,7 +49,7 @@
     overflow: hidden;
 }
 
-/* Navbar hover transitions */
+/* Navbar hover transition */
 .navbar .container:before {
     content: "";
     position: absolute;

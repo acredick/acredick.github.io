@@ -1,19 +1,27 @@
-body {
+/* Background color */
+body #welcome-page {
     background: #2C2927;
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden; 
+    /* Used for editing */
+    border-style: none;
+    border-color: red;
+    border-width: 1px;
 }
 
 /* Page container */
 #page-container {
     margin: 0px !important;
-    height: 800px;
+    height: 100vh;
     position: relative;
     width: auto;
+    overflow: hidden; 
 
     /* Used for editing */
     border-style: none;
-    border-color: red;
-    border-width: 1px;
-
+    border-color: blue;
+    border-width: 4px;
 }
 
 /* Center Intro container */
