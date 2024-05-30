@@ -1,0 +1,5 @@
+"Night" 121113
+"Jet" 2C2927 --> lighter: 7f7771 --> CBC8C6
+"Taupe" 4E4538
+"Reseda Green" 717852 --> lighter: eff1ea
+"Ebony" 50564D

@@ -1,0 +1,82 @@
+/*Navbar container */
+#nav-container {
+    width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Brand logo */
+.brand {
+    position: fixed;
+    text-decoration: none;
+    font-size: 30px;
+    color: #eff1ea;
+    top: 8px;
+    left: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: RealityHyper;
+
+}
+
+/* Navbar background */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    background-color: #2C2927;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 20px -5px;
+}
+
+/* Navbar item containers */
+.navbar .container {
+    position: relative;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    margin: 30px;
+    overflow: hidden;
+}
+
+/* Navbar hover transitions */
+.navbar .container:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    transform: skew(0deg);
+    background: #eff1ea;
+    transition: width 400ms ease;
+}
+
+.navbar .container:hover:before {
+    width: 120%;
+}
+
+.navbar .container:nth-child:before {
+    transform: skew(0deg);
+}
+
+/* Links in Navbar items */
+.nav-link, .navbar-brand {
+    font-size: 18px;
+    color: #7f7771;
+    text-transform: lowercase;
+    font-family: CreatoDisplay-Medium;
+    z-index: 10;
+    padding: 40px;
+    text-decoration: none;
+    transition: color 200ms ease;
+}
+

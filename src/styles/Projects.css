@@ -1,0 +1,45 @@
+/* Page container */
+#outer-container {
+    margin: 10px 120px 10px 120px;
+    overflow: hidden;
+}
+
+/* Project type header */
+.project-type-header {
+    font-family: CreatoDisplay-MediumItalic;
+    display: grid;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Project titles */
+.project-title {
+    font-family: CreatoDisplay-MediumItalic;
+    display: grid;
+    text-align: center;
+    color: #717852;
+
+}
+
+/* Project subtitles */
+.project-subtitle {
+    font-family: CreatoDisplay-Medium;
+    display: grid;
+    text-align: center;
+    color: #2C2927;
+
+}
+
+/* Project description */
+.project-desc {
+    font-family: CreatoDisplay-Medium;
+    display: grid;
+    text-align: left;
+}
+
+/* Images */
+img {
+    display: grid;
+    text-align: center;
+    width: 60%;
+}

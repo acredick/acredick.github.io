@@ -1,0 +1,31 @@
+/* Header fonts */
+
+/* Subheader / title fonts */
+
+/* Text fonts */
+
+@font-face {
+    font-family: CreatoDisplay-Light;
+    src:url("../assets/CreatoDisplay-Light.ttf")
+}
+
+@font-face {
+    font-family: CreatoDisplay-LightItalic;
+    src:url("../assets/CreatoDisplay-LightItalic.ttf")
+}
+
+@font-face {
+    font-family: CreatoDisplay-Medium;
+    src:url("../assets/CreatoDisplay-Medium.ttf")
+}
+
+@font-face {
+    font-family: CreatoDisplay-MediumItalic;
+    src:url("../assets/CreatoDisplay-MediumItalic.ttf")
+}
+
+/* Brand fonts */
+@font-face {
+    font-family: RealityHyper;
+    src:url("../assets/Reality Hyper Regular.ttf")
+}
