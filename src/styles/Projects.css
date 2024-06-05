@@ -21,8 +21,8 @@
 
 }
 
-/* Project subtitles */
-.project-subtitle {
+/* Project dates */
+.project-date {
     font-family: CreatoDisplay-Medium;
     display: grid;
     text-align: center;
@@ -36,6 +36,14 @@
     display: grid;
     text-align: left;
 }
+
+/* Description bullets */
+ul {
+    font-family: CreatoDisplay-Medium;
+    list-style-type: none;
+    padding-left: 0;
+}
+
 
 /* Images */
 img {

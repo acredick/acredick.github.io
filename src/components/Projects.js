@@ -7,7 +7,7 @@ import "../styles/Projects.css"
 export default function Projects() {
     return (
         <section id="projects">
-            
+
             <div id="outer-container">
                 <div>
                     <h1 class="project-type-header">Academic Projects</h1>
@@ -20,9 +20,16 @@ export default function Projects() {
                                 href={project.link}>
                                 {project.title}
                             </a>
-                            <p class="project-subtitle">{project.subtitle}</p>
+                            <p class="project-date">{project.date}</p>
                             <img src={project.image}></img>
                             <p class="project-desc">{project.description}</p>
+
+                            {project.bullets != null &&
+                            <ul>
+                                {(project.bullets).map((bullet) => <li>{bullet}</li>)}
+                            </ul>
+                            }
+
 
                         </div>
                     )
@@ -38,7 +45,7 @@ export default function Projects() {
                                 class="project-title">
                                 {project.title}
                             </a>
-                            <p class="project-subtitle">{project.subtitle}</p>
+                            <p class="project-date">{project.date}</p>
                             <img src={project.image}></img>
                             <p class="project-desc">{project.description}</p>
 

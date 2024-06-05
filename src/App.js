@@ -1,4 +1,5 @@
-import NavScroll from "./components/NavScroll"
+// src/App
+
 import './styles/App.css';
 import About from "./components/About"
 import Projects from "./components/Projects"
