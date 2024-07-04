@@ -17,17 +17,17 @@ export default function NavScroll() {
 
             <Navbar expand="lg">
                 <Container>
-                    <Nav.Link href="/past-work">01. Projects</Nav.Link>
+                    <Nav.Link href="/projects">projects</Nav.Link>
                 </Container>
 
                 <Container >
                     <Nav.Link href="/experience">
-                        02. Experience
+                        experience
                     </Nav.Link>
                 </Container>
 
                 <Container>
-                    <Nav.Link href="/contact">03. Contact</Nav.Link>
+                    <Nav.Link href="/contact">contact</Nav.Link>
                 </Container>
             </Navbar>
         </div>

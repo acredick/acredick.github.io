@@ -21,7 +21,7 @@ function App() {
 
           <Route element={<WithNav />}>
             <Route path="/about" element={<About />} />
-            <Route path="/past-work" element={<Projects />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />
           </Route>

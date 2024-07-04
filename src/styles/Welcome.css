@@ -1,3 +1,8 @@
+/* Border */ 
+#welcome-body {
+    
+}
+
 /* Background image */
 #welcome-background {
     width: 100vw;
@@ -9,7 +14,10 @@
     top: 0;
     bottom: 0;
     z-index: -1;
- }
+
+    outline: 1px solid #7D7D8C;
+    outline-offset: -20px;
+}
 
 /* Page container */
 #page-container {
@@ -17,7 +25,7 @@
     height: 100vh;
     position: relative;
     width: auto;
-    overflow: hidden; 
+    overflow: hidden;
 
     /* Used for editing */
     border-style: none;
@@ -25,13 +33,16 @@
     border-width: 4px;
 }
 
-/* Center Intro container */
+/* Left Justify Intro container */
 #intro-container {
-    width: 90%;
-    position: relative;
+    width: 45%;
+    float: left;
+
+    margin-left: 200px;
+    position: absolute;
     top: 50%;
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    margin: auto !important;
 
     /* Used for editing */
     border-style: none;
@@ -39,36 +50,63 @@
     border-width: 5px;
 }
 
+#about-me {
+    margin: 0 40px 0 40px;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: orange;
+    border-width: 5px;
+}
+
 /* Button container */
 #button-container {
-    text-align: center;
+    float: right;
+    transform: translateY(80%);
+    margin-right: 400px;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: purple;
+    border-width: 5px;
 }
 
-/* Text */
+/* Button styling */
+#button-container li {
+    margin: 40px;
+}
+
+#button-container ul  {
+    list-style-type: none;
+}
+
 #name {
-    text-align: center;
-    font-family: RealityHyper;
-    font-size: 90px;
-    width: 100%;
-    margin: 10px 0px 10px 0;
-    color: #eff1ea;
+    width: 50%;
+    margin-left: 20px;
+    color: #E2DDE4;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: pink;
+    border-width: 5px;
 }
 
-.about { 
-    color: white;
-
+.about {
+    color: #D6D2DA;
+    font-size: 20px;
+    font-family: CreatoDisplay-Light;
 }
 
-/* Continue animation */
-#continue {
+/* Button animation */
+#button {
     text-decoration: none;
     padding: 10px;
-    font-size: 30px;
+    font-size: 50px;
     font-family: CreatoDisplay-Medium;
 
     transform: translate(-50%, -50%);
     padding: 12px 48px;
-    background: linear-gradient(to right, #7f7771 0, #eff1ea 10%, #7f7771 20%);
+    background: linear-gradient(to right, #A7A7B1 0, #eff1ea 10%, #A7A7B1 20%);
     background-position: 0;
     background-clip: text;
     -webkit-text-fill-color: transparent;
