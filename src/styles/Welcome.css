@@ -1,14 +1,15 @@
-/* Background color */
-body #welcome-page {
-    background: #2C2927;
-    min-height: 100%;
-    margin: 0;
-    overflow: hidden; 
-    /* Used for editing */
-    border-style: none;
-    border-color: red;
-    border-width: 1px;
-}
+/* Background image */
+#welcome-background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
 
 /* Page container */
 #page-container {
@@ -44,20 +45,6 @@ body #welcome-page {
 }
 
 /* Text */
-#welcome {
-    font-family: CreatoDisplay-Medium;
-    text-align: center;
-    margin-bottom: 0;
-    color: #7f7771;
-}
-
-#intro {
-    text-align: center;
-    font-family: CreatoDisplay-LightItalic;
-    margin: 5px 0 5px 0;
-    color: #7f7771;
-}
-
 #name {
     text-align: center;
     font-family: RealityHyper;
@@ -65,6 +52,11 @@ body #welcome-page {
     width: 100%;
     margin: 10px 0px 10px 0;
     color: #eff1ea;
+}
+
+.about { 
+    color: white;
+
 }
 
 /* Continue animation */

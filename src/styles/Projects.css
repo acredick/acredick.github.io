@@ -31,7 +31,7 @@
 }
 
 /* Project description */
-.project-desc {
+.project-desc, .tech-list {
     font-family: CreatoDisplay-Medium;
     display: grid;
     text-align: left;
@@ -40,14 +40,26 @@
 /* Description bullets */
 ul {
     font-family: CreatoDisplay-Medium;
-    list-style-type: none;
     padding-left: 0;
+}
+
+/* List bullets */
+li:before {
+    content: "‣";
+    padding-right: 5px; 
 }
 
 
 /* Images */
-img {
+.project-img {
     display: grid;
     text-align: center;
     width: 60%;
 }
+
+.github-logo {
+    display: grid;
+    text-align: center;
+    width: 10%;
+}
+

@@ -3,9 +3,8 @@
 import './styles/App.css';
 import About from "./components/About"
 import Projects from "./components/Projects"
-import Skills from "./components/Skills"
+import Experience from "./components/Experience"
 import Contact from "./components/Contact"
-import Home from "./components/Home"
 import Welcome from "./components/Welcome"
 import WithNav from "./layouts/WithNav"
 import WithoutNav from "./layouts/WithoutNav"
@@ -21,10 +20,9 @@ function App() {
           </Route>
 
           <Route element={<WithNav />}>
-            <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/past-work" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
+            <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>

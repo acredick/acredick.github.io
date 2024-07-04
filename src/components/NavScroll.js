@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "../styles/NavScroll.css"
-import { NavLink, NavbarBrand } from "react-bootstrap";
 
 export default function NavScroll() {
     return (
@@ -18,23 +17,17 @@ export default function NavScroll() {
 
             <Navbar expand="lg">
                 <Container>
-                    <Nav.Link href="/past-work">01. Past Work</Nav.Link>
+                    <Nav.Link href="/past-work">01. Projects</Nav.Link>
                 </Container>
 
                 <Container >
-                    <Nav.Link href="/skills">
-                        02. Skills
+                    <Nav.Link href="/experience">
+                        02. Experience
                     </Nav.Link>
                 </Container>
 
                 <Container>
-                    <Nav.Link href="/about">
-                        03. About
-                    </Nav.Link>
-                </Container>
-
-                <Container>
-                    <Nav.Link href="/contact">04. Contact</Nav.Link>
+                    <Nav.Link href="/contact">03. Contact</Nav.Link>
                 </Container>
             </Navbar>
         </div>
