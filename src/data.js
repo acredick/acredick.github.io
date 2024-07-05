@@ -2,6 +2,19 @@ import interpreter from "./assets/interpreter.png"
 
 export const projects = [
   {
+    title: "Personal portfolio",
+    technologies: ["JavaScript", "HTML", "CSS", "GitHub", "VSCode"],
+    company: null,
+    company_link: null,
+    location: null,
+    date: "May 2024 - Present ",
+    description:
+      "Created a personal portfolio using React, HTML, CSS, and JavaScript to showcase experience and projects. Managed version control through GitHub. Utilized VSCode as the primary development environment. You’re viewing it right now!",
+    bullets: null,
+    image: null,
+    link: "https://github.com/acredick/portfolio",
+  },
+  {
     title: "Decision Support System For Creating Optimal Rainwater Harvesting Strategies",
     technologies: ["MATLAB", "Unix"],
     company: "Hydrology and Water Quality Lab, UAlbany",
@@ -16,7 +29,7 @@ export const projects = [
   },
   {
     title: "Group Messaging and Calendar App, \"Grouper\"",
-    technologies: ["MongoDB", "Express", "React", "Node", "JavaScript", "HTML5", "CSS3", "GitHub", "Waterfall software development"],
+    technologies: ["MongoDB", "Express", "React", "Node", "JavaScript", "HTML", "CSS", "GitHub", "Waterfall software development"],
     company: "Software Engineering, UAlbany",
     company_link: "https://www.albany.edu/",
     location: "Albany, NY",

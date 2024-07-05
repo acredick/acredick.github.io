@@ -15,14 +15,17 @@ export default function Projects() {
                     <div id="project-container">
                         {projects.map((project) => (
                             <div>
-                                {project.link  != null &&
+                                {project.link != null &&
                                     <a id="project-title-linked" href={project.link} target="_blank">{project.title}</a>
                                 }
-
                                 {project.link == null &&
                                     <a id="project-title">{project.title}</a>}
 
-                                <p id="project-date">{project.date} — <a id="company-link" href={project.company_link} target="_blank">{project.company}</a> • {project.location}</p>
+                                {project.company == null &&
+                                    <p class="project-date">{project.date}</p>}
+                                {project.company != null &&
+                                    <p class="project-date">{project.date} — <a id="company-link" href={project.company_link} target="_blank">{project.company}</a> • {project.location}</p>}
+
                                 <img src={project.image}></img>
                                 <p id="project-desc">{project.description}</p>
                                 {project.bullets != null &&

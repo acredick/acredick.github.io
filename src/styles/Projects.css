@@ -79,13 +79,14 @@
 }
 
 /* Project dates */
-#project-date {
+.project-date {
     font-family: CreatoDisplay-Medium;
     text-transform: lowercase;
     display: inline-block;
     text-align: left;
     color: #67616B;
-    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 0px;
 
     /* Used for editing */
     border-style: none;
