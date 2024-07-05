@@ -1,52 +1,155 @@
 /* Page container */
-#outer-container {
+#projects-outer-container {
     margin: 10px 120px 10px 120px;
     overflow: hidden;
+
+    /* Used for editing */
+    border-style: dashed;
+    border-color: purple;
+    border-width: 2px;
 }
 
-/* Project type header */
-.project-type-header {
+/* Project container */
+#project-container {
+    width: 60%;
+    overflow: hidden;
+    float: right;
+    margin-right: 150px;
+    margin-top: 40px;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: pink;
+    border-width: 2px;
+}
+
+/* Project header */
+#project-header {
     font-family: CreatoDisplay-MediumItalic;
     display: grid;
     text-align: center;
     text-transform: uppercase;
+    width: 20%;
+    float: left;
+    margin-left: 0px;
+    position: absolute;
+    font-size: 50px;
+    overflow: hidden;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: purple;
+    border-width: 5px;
 }
 
 /* Project titles */
-.project-title {
-    font-family: CreatoDisplay-MediumItalic;
+#project-title, #project-title-linked {
+    font-family: CreatoDisplay-Medium;
+    text-transform: lowercase;
     display: grid;
-    text-align: center;
-    color: #717852;
+    text-align: left;
+    color: #D6D2DA;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 30px;
+    text-decoration: none;
 
+    /* Used for editing */
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
+
+}
+
+#project-title-linked:hover {
+    font-family: CreatoDisplay-Medium;
+    text-transform: lowercase;
+    display: grid;
+    text-align: left;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 30px;
+    text-decoration: none;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
 }
 
 /* Project dates */
-.project-date {
+#project-date {
     font-family: CreatoDisplay-Medium;
-    display: grid;
-    text-align: center;
-    color: #2C2927;
+    text-transform: lowercase;
+    display: inline-block;
+    text-align: left;
+    color: #67616B;
+    margin: 0;
 
+    /* Used for editing */
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
+
+}
+
+/* Company link */
+#company-link {
+    text-decoration: none;
+    font-family: CreatoDisplay-MediumItalic;
+    text-transform: lowercase;
+    display: inline-block;
+    text-align: left;
+    color: #67616B;
+    margin: 0 0 10px 0;
+}
+
+#company-link:hover {
+    text-decoration: none;
+    font-family: CreatoDisplay-MediumItalic;
+    text-transform: lowercase;
+    display: inline-block;
+    text-align: left;
+    color: #9A949E;
+    margin: 0 0 10px 0;
 }
 
 /* Project description */
-.project-desc, .tech-list {
+#project-desc {
+    margin-top: 0px;
     font-family: CreatoDisplay-Medium;
     display: grid;
     text-align: left;
+    color: #B9B4BB;
 }
 
-/* Description bullets */
+/* Skills & Technology points */
+#skills-container {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
 ul {
-    font-family: CreatoDisplay-Medium;
     padding-left: 0;
+    
 }
 
-/* List bullets */
 li:before {
-    content: "‣";
-    padding-right: 5px; 
+    content: "";
+}
+
+#skills {
+    font-family: CreatoDisplay-Light;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0px;
+    width: fit-content;
+    padding: 10px;
+    margin: 0px 10px 10px 0;
+    background-color: #353847;
+    color: #BCD3F2;
 }
 
 
@@ -56,10 +159,3 @@ li:before {
     text-align: center;
     width: 60%;
 }
-
-.github-logo {
-    display: grid;
-    text-align: center;
-    width: 10%;
-}
-

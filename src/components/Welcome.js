@@ -27,7 +27,7 @@ export default function Welcome() {
                             test of time. I am eager to contribute to the advancement of technology, believing in
                             its potential to shape a better future for humanity.</p>
                         <p class="about">
-                            When I'm not immersed in coding, I'll likely be found cooking up new recipes, diving
+                            When I'm not immersed in coding, I'll likely be found cooking up new recipes, 
                             playing some video games, or spending some time with my friends and family.
                         </p>
                     </div>

@@ -28,7 +28,7 @@
     border-width: 4px;
 }
 
-/* Left Justify Intro container */
+/* Left Justify Intro container and about me section*/
 #intro-container {
     width: 45%;
     float: left;
@@ -71,10 +71,16 @@
     margin: 40px;
 }
 
-#button-container ul  {
-    list-style-type: none;
+#button-container li:before {
+    content: '';
+
 }
 
+#button-container ul  {
+    list-style-type: none !important;
+}
+
+/* Handwritten name */
 #name {
     width: 50%;
     margin-left: 20px;
@@ -86,6 +92,7 @@
     border-width: 5px;
 }
 
+/* About me paragraph */
 .about {
     color: #D6D2DA;
     font-size: 20px;
@@ -93,11 +100,12 @@
 }
 
 /* Button animation */
-#button {
+#button:not(:hover) {
     text-decoration: none;
     padding: 10px;
     font-size: 50px;
     font-family: CreatoDisplay-Medium;
+    list-style-type: none;
 
     transform: translate(-50%, -50%);
     padding: 12px 48px;
@@ -124,4 +132,14 @@
     100% {
         background-position: 180px
     }
+}
+
+#button:hover {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 50px;
+    font-family: CreatoDisplay-Medium;
+    color: #eff1ea;
+    padding: 12px 48px;
 }

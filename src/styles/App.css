@@ -45,3 +45,23 @@ body {
         opacity: 1;
     }
 }
+
+/* Background animation */
+body:not(#welcome-body) {
+	background: linear-gradient(-45deg,#191924, #13172A, #110A0A);
+	background-size: 500% 500%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

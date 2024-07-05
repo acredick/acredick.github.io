@@ -30,7 +30,6 @@
     overflow: hidden;
     height: 50px;
     width: 100%;
-    background-color: #2C2927;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 20px -5px;
 }
 
@@ -56,12 +55,16 @@
     width: 0%;
     height: 100%;
     transform: skew(0deg);
-    background: #eff1ea;
+    background: #2C2C39;
     transition: width 400ms ease;
 }
 
 .navbar .container:hover:before {
     width: 120%;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: white;
 }
 
 .navbar .container:nth-child:before {
@@ -71,7 +74,7 @@
 /* Links in Navbar items */
 .nav-link, .navbar-brand {
     font-size: 18px;
-    color: #7f7771;
+    color: #C2BFC2;
     text-transform: lowercase;
     font-family: CreatoDisplay-Medium;
     z-index: 10;
