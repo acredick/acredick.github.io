@@ -45,7 +45,8 @@ export default function Experience() {
                                 {/* Display skills */}
                                 <div id="skills-container">
                                     <ul>
-                                        {(exp.skills).map((skill) => <li id="skills">{skill}</li>)}
+                                        {(exp.hard_skills).map((skill) => <li id="skills">{skill}</li>)}
+                                        {(exp.soft_skills).map((skill) => <li id="soft_skills">{skill}</li>)}
                                     </ul>
                                 </div>
                             </div>

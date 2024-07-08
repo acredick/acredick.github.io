@@ -170,6 +170,19 @@ li:before {
     color: #BCD3F2;
 }
 
+#soft_skills {
+    font-family: CreatoDisplay-Light;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0px;
+    width: fit-content;
+    padding: 10px;
+    margin: 0px 10px 10px 0;
+    background-color: #202332;
+    color: #6B809E;
+}
+
 
 /* Images */
 .project-img {

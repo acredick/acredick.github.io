@@ -41,9 +41,6 @@ export const projects = [
     image: null,
     link: null,
   },
-];
-
-export const old_projects = [ 
   {
     title: "AWK Interpreter",
     technologies: ["Java", "AWK", "JUnit", "Agile software development"],
@@ -62,7 +59,8 @@ export const old_projects = [
 export const experience = [
   {
     title: "Management Website Administrator & Supervisor",
-    skills: ["example"],
+    hard_skills: ["Inventory Management", "E-commerce Platform Skills", "Financial Record Keeping", "Customer Service"],
+    soft_skills: ["Communication", "Conflict resolution", "Delegation", "Time Management"],
     company: "Short And Stout Tea Company",
     company_link: "https://shortandstouttea.com/",
     location: "Albany, NY",
@@ -74,12 +72,13 @@ export const experience = [
   {
     title: "Peer Tutor",
     title_details: "for Intro to Computer Science, Data Structures, & Discrete Structures",
-    skills: ["example"],
+    hard_skills: ["Java", "Algorithms", "JUnit"],
+    soft_skills: ["Instruction", "Problem-solving", "Communication", "Patience", "Adaptability", "Time Management"],
     company: "College of Nanotechnology, Science, and Engineering (CNSE) Learning Center, UAlbany",
     company_link: "https://www.albany.edu/cnse",
     location: "Albany, NY",
     date: "September 2023 - December 2023",
-    description: "",
+    description: "Scheduled and conducted in-person and remote tutoring sessions for CNSE students. Tailored lessons to individual needs and maintained detailed session notes to optimize teaching effectiveness. This often resulted in students achieving at least one letter grade higher.",
     bullets: null,
     image: null,
   }

@@ -1,3 +1,107 @@
-p, h1, h2, h3, li, ul {
-    color: #D6D2DA;
+/* Page container */
+#outer-container {
+    overflow: hidden !important;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: purple;
+    border-width: 2px;
 }
+
+/* contact container */
+#contact-container {
+    width: 60%;
+    float: right;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-left: auto;
+    
+    /* Used for editing */
+    border-style: none;
+    border-color: pink;
+    border-width: 2px;
+}
+
+/* Header */
+#header {
+    font-family: CreatoDisplay-MediumItalic;
+    display: grid;
+    text-align: center;
+    text-transform: uppercase;
+    width: 450px;
+    float: left;
+    margin-left: 0px;
+    position: absolute;
+    font-size: 50px;
+    overflow: hidden !important;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: purple;
+    border-width: 5px;
+}
+
+/* Opening statement */
+#opener {
+    font-family: CreatoDisplay-Medium;
+    text-transform: lowercase;
+    display: inline-block;
+    text-align: left;
+    color: #D6D2DA;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 40px;
+    text-decoration: none;
+    width: fit-content;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
+
+}
+
+/* Bullets */
+ul {
+    list-style-type: none;
+}
+
+li:before {
+    content: "";
+}
+
+/* Contact */
+.contact {
+    font-family: CreatoDisplay-LightItalic;
+    text-transform: lowercase;
+    display: inline-block;
+    text-align: left;
+    color: #D6D2DA;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 30px;
+    text-decoration: none;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: rgb(141, 78, 78);
+    border-width: 2px;
+}
+
+.contact:hover {
+    font-family: CreatoDisplay-LightItalic;
+    text-transform: lowercase;
+    display: inline-block;
+    text-align: left;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 30px;
+    text-decoration: none;
+
+    /* Used for editing */
+    border-style: none;
+    border-color: rgb(141, 78, 78);
+    border-width: 2px;
+}
+

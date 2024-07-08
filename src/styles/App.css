@@ -1,8 +1,4 @@
-/* Header fonts */
-
-/* Subheader / title fonts */
-
-/* Text fonts */
+/* Fonts */
 
 @font-face {
     font-family: CreatoDisplay-Light;
@@ -24,16 +20,19 @@
     src:url("../assets/CreatoDisplay-MediumItalic.ttf")
 }
 
-/* Brand fonts */
 @font-face {
     font-family: Bastliga-One;
     src:url("../assets/Bastliga One.ttf")
 }
 
-/* Brand fonts */
 @font-face {
     font-family: Kosans;
     src:url("../assets/Kosans.ttf")
+}
+
+/* Text defaults */
+p, h1, h2, h3, li, ul {
+    color: #D6D2DA;
 }
 
 /* Fade-in transition */
@@ -70,4 +69,9 @@ body:not(#welcome-body) {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+/* Make scroll bar visible */
+html {
+    height: 101%;
 }
