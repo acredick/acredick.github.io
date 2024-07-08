@@ -11,11 +11,12 @@ export default function NavScroll() {
 
 
         <div id="nav-container">
-            <div class="brand-container">
-                <a class="brand" href="/">Auria Redick</a>
-            </div>
 
             <Navbar expand="lg">
+                <Container>
+                    <Nav.Link href="/">home</Nav.Link>
+                </Container>
+
                 <Container>
                     <Nav.Link href="/projects">projects</Nav.Link>
                 </Container>

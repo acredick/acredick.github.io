@@ -2,7 +2,6 @@
 
 import React from "react";
 import "../styles/Welcome.css"
-import grainsofsand from "../assets/grainsofsand.jpg"
 import handwrittenname from "../assets/handwrittenname.png"
 
 
@@ -11,11 +10,10 @@ export default function Welcome() {
 
     return (
         <body id="welcome-body">
-            <img src={grainsofsand} id="welcome-background" />
 
             <div id="page-container">
                 <div id="intro-container">
-                    <img src={handwrittenname} id="name"></img>
+                    <a id="name" href="/">Auria Redick</a>
                     <div id="about-me">
                         <p class="about">
                             I discovered coding in my freshman year of college by taking a random class and instantly

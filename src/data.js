@@ -1,8 +1,7 @@
-import interpreter from "./assets/interpreter.png"
-
 export const projects = [
   {
     title: "Personal portfolio",
+    title_details: null,
     technologies: ["JavaScript", "HTML", "CSS", "GitHub", "VSCode"],
     company: null,
     company_link: null,
@@ -16,6 +15,7 @@ export const projects = [
   },
   {
     title: "Decision Support System For Creating Optimal Rainwater Harvesting Strategies",
+    title_details: null,
     technologies: ["MATLAB", "Unix"],
     company: "Hydrology and Water Quality Lab, UAlbany",
     company_link: "https://www.albany.edu/environmental-sustainable-engineering/hydrology-and-water-quality",
@@ -28,7 +28,8 @@ export const projects = [
     link: null,
   },
   {
-    title: "Group Messaging and Calendar App, \"Grouper\"",
+    title: "\"Grouper,\"",
+    title_details: "Group Messaging and Calendar App",
     technologies: ["MongoDB", "Express", "React", "Node", "JavaScript", "HTML", "CSS", "GitHub", "Waterfall software development"],
     company: "Software Engineering, UAlbany",
     company_link: "https://www.albany.edu/",
@@ -40,6 +41,9 @@ export const projects = [
     image: null,
     link: null,
   },
+];
+
+export const old_projects = [ 
   {
     title: "AWK Interpreter",
     technologies: ["Java", "AWK", "JUnit", "Agile software development"],
@@ -53,4 +57,30 @@ export const projects = [
     image: null,
     link: "https://github.com/acredick/AWK-Interpreter",
   },
+];
+
+export const experience = [
+  {
+    title: "Management Website Administrator & Supervisor",
+    skills: ["example"],
+    company: "Short And Stout Tea Company",
+    company_link: "https://shortandstouttea.com/",
+    location: "Albany, NY",
+    date: "May 2024 - Present",
+    description: "Managed inventory updates for the shop's website, including adding new items, deleting discontinued products, and ensuring accurate product descriptions and availability. Communicated with business inquiries, managed inventory orders, and kept partners informed about shipments. Maintained precise daily income statistics and upheld financial records. Utilized strong communication skills to address customer concerns promptly and supported staff during conflicts to foster a positive work environment.",
+    bullets: null,
+    image: null,
+  },
+  {
+    title: "Peer Tutor",
+    title_details: "for Intro to Computer Science, Data Structures, & Discrete Structures",
+    skills: ["example"],
+    company: "College of Nanotechnology, Science, and Engineering (CNSE) Learning Center, UAlbany",
+    company_link: "https://www.albany.edu/cnse",
+    location: "Albany, NY",
+    date: "September 2023 - December 2023",
+    description: "",
+    bullets: null,
+    image: null,
+  }
 ];

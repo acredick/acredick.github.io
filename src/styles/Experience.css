@@ -8,8 +8,8 @@
     border-width: 2px;
 }
 
-/* Project container */
-#project-container {
+/* Experience container */
+#exp-container {
     width: 60%;
     float: right;
     margin-right: 150px;
@@ -22,8 +22,8 @@
     border-width: 2px;
 }
 
-/* Project header */
-#project-header {
+/* Experience header */
+#experience-header {
     font-family: CreatoDisplay-MediumItalic;
     display: grid;
     text-align: center;
@@ -41,9 +41,8 @@
     border-width: 5px;
 }
 
-/* Project titles */
-#project-title,
-#project-title-linked {
+/* Experience position titles */
+#exp-title, #exp-title-linked {
     font-family: CreatoDisplay-Medium;
     text-transform: lowercase;
     display: inline-block;
@@ -62,7 +61,7 @@
 
 }
 
-#project-title-linked:hover {
+#exp-title-linked:hover {
     font-family: CreatoDisplay-Medium;
     text-transform: lowercase;
     text-align: left;
@@ -90,15 +89,14 @@
     font-size: 30px;
     text-decoration: none;
 
-
     /* Used for editing */
     border-style: none;
     border-color: rgb(141, 78, 78);
-    border-width: 5px;
+    border-width: 2px;
 }
 
-/* Project dates */
-.project-date {
+/* Experience dates */
+.exp-date {
     font-family: CreatoDisplay-Medium;
     text-transform: lowercase;
     display: inline-block;
@@ -135,8 +133,8 @@
     margin: 0 0 10px 0;
 }
 
-/* Project description */
-#project-desc {
+/* Experience description */
+#exp-desc {
     margin-top: 0px;
     font-family: CreatoDisplay-Medium;
     display: grid;
@@ -152,7 +150,7 @@
 
 ul {
     padding-left: 0;
-
+    
 }
 
 li:before {

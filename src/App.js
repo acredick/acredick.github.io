@@ -19,6 +19,7 @@ function App() {
           </Route>
 
           <Route element={<WithNav />}>
+            <Route path="/" element={<Welcome />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />

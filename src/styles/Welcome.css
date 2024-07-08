@@ -1,17 +1,24 @@
-/* Background image */
-#welcome-background {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+/* Background animation */
+#welcome-body {
+	background: linear-gradient(-45deg,#141D15, #0C0409, #130407, #06191E, #061818);
+	background-size: 500% 500%;
+	animation: gradient 13s ease infinite;
+	height: 100vh;
 
     outline: 1px solid #7D7D8C;
     outline-offset: -20px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* Page container */
@@ -80,11 +87,14 @@
     list-style-type: none !important;
 }
 
-/* Handwritten name */
+/* Name */
 #name {
     width: 50%;
-    margin-left: 20px;
+    margin-left: 80px;
     color: #E2DDE4;
+    font-family: Bastliga-One;
+    text-decoration: none;
+    font-size: 150px;
 
     /* Used for editing */
     border-style: none;

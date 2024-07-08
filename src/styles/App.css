@@ -26,8 +26,14 @@
 
 /* Brand fonts */
 @font-face {
-    font-family: RealityHyper;
-    src:url("../assets/Reality Hyper Regular.ttf")
+    font-family: Bastliga-One;
+    src:url("../assets/Bastliga One.ttf")
+}
+
+/* Brand fonts */
+@font-face {
+    font-family: Kosans;
+    src:url("../assets/Kosans.ttf")
 }
 
 /* Fade-in transition */
