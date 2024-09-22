@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.405b3cc9.css",
+    "main.js": "/react-gh-pages/static/js/main.3693c249.js",
+    "static/js/453.acca0757.chunk.js": "/react-gh-pages/static/js/453.acca0757.chunk.js",
+    "static/media/Bastliga One.ttf": "/react-gh-pages/static/media/Bastliga One.b99d91a5fef2b0c861ef.ttf",
+    "static/media/CreatoDisplay-LightItalic.ttf": "/react-gh-pages/static/media/CreatoDisplay-LightItalic.275fb00937893c286fca.ttf",
+    "static/media/CreatoDisplay-MediumItalic.ttf": "/react-gh-pages/static/media/CreatoDisplay-MediumItalic.f96be828924099a72500.ttf",
+    "static/media/CreatoDisplay-Light.ttf": "/react-gh-pages/static/media/CreatoDisplay-Light.2c674134733d324952ba.ttf",
+    "static/media/CreatoDisplay-Medium.ttf": "/react-gh-pages/static/media/CreatoDisplay-Medium.ee677d4fa2edd853d112.ttf",
+    "static/media/handwrittenname.png": "/react-gh-pages/static/media/handwrittenname.3e184444234301bb7bf7.png",
+    "static/media/Kosans.ttf": "/react-gh-pages/static/media/Kosans.c844a208a55b23c21e60.ttf",
+    "index.html": "/react-gh-pages/index.html",
+    "main.405b3cc9.css.map": "/react-gh-pages/static/css/main.405b3cc9.css.map",
+    "main.3693c249.js.map": "/react-gh-pages/static/js/main.3693c249.js.map",
+    "453.acca0757.chunk.js.map": "/react-gh-pages/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.405b3cc9.css",
+    "static/js/main.3693c249.js"
+  ]
+}
